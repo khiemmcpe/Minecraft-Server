@@ -1,6 +1,6 @@
 # Minecraft-Server
 
-## Step 1. Download Java
+## Step 1. Download bedrock 
 <pre><code>apt install java</code></pre>
 
 <br>
@@ -11,20 +11,20 @@
 <br>
 
 ## Step 3. Download The Forge Installer
-Now download the version 1.12.2 [Forge Installer](https://files.minecraftforge.net/).
+Now download the version 1.21.51.01[Forge Installer](https://files.minecraftforge.net/).
 
 <br>
 
 ## Step 4. Configure New Minecraft Server
 * Install Server
-<pre><code>java -jar forge-1.12.2-14.23.5.2838-installer.jar --installServer</code></pre>
+<pre><code>bedrock  -jar forge-1.21.51.01 -14.23.5.2838-installer.jar --installServer</code></pre>
 * Run Server
-<pre><code>java -Xms1024M -Xmx2048M -jar /minecraft/forge-1.12.2-14.23.5.2838-universal.jar nogui</code></pre>
+<pre><code>bedrock-Xms1024M -Xmx2048M -jar /minecraft/forge-1.12.2-14.23.5.2838-universal.jar nogui</code></pre>
 * Accept the EULA
 <pre><code>vim eula.txt
 eula=true</code></pre>
 * Run Server again
-<pre><code>java -Xms1024M -Xmx2048M -jar /minecraft/forge-1.12.2-14.23.5.2838-universal.jar nogui</code></pre>
+<pre><code>bedrock  -Xms1024M -Xmx2048M -jar /minecraft/forge-1.12.2-14.23.5.2838-universal.jar nogui</code></pre>
 
 <br>
 
